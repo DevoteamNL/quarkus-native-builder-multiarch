@@ -1,5 +1,7 @@
 # Multiarch Quarkus Native Builder Image
 
+![Docker Image CI](https://github.com/DevoteamNL/quarkus-native-builder-multiarch/workflows/Docker%20Image%20CI/badge.svg)
+
 This docker image provides the capability to compile a native quarkus image for multiple architectures on a x86_64 machine. It is based on the multiarch project on github (https://github.com/multiarch) and includes GraalVM with native compilation features enabled.
 
 Using this image in a multi-stage build allows you to for example compile a quarkus application to a native aarch64 binary and package the result into a container that can be run on aarch64 (eg. Raspberry Pi 3B)
